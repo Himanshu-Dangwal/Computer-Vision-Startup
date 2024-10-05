@@ -1,8 +1,18 @@
 .home {
     background-color: #f8f9fa;
     padding: 100px 0;
+    /* margin: 0; */
 }
 
 .home img {
     border-radius: 15px;
+}
+
+.blockquote-footer {
+    margin-top: 10px;
+    /* Adjust this value based on how much space you want */
+    font-size: 0.9rem;
+    /* Optional: If you want to make the footer text a little smaller */
+    color: #6c757d;
+    /* Optional: For lighter gray text */
 }
