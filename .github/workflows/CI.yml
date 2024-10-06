@@ -1,4 +1,4 @@
-name: CI-pipleine
+name: CI
 
 on:
   push:
