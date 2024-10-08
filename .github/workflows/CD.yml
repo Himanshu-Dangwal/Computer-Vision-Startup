@@ -23,4 +23,4 @@ jobs:
           sudo docker pull himanshudangwal/computer-vision:latest
           sudo docker stop computer-vision || true
           sudo docker rm computer-vision || true
-          sudo docker run -d --name computer-vision -p 5173:5173 himanshudangwal/computer-vision:latest
+          sudo docker run -d --name computer-vision -p 80:5173 himanshudangwal/computer-vision:latest
