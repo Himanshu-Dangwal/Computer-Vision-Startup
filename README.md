@@ -134,4 +134,4 @@ To ensure a constant public IP address that remains the same even after stopping
 - **Elastic IPs** are free when associated with a running instance. However, if you allocate an Elastic IP but do not associate it with a running instance, AWS will charge a small hourly fee.
 
 ## Conclusion
-By implementing this project, I have created a robust computer vision application with automated deployment processes and a consistent URL for end users. The use of Docker, CI/CD pipelines, and Elastic IPs ensures a smooth development and operational experience.
+By implementing this project, I have created a robust computer vision application with automated deployment processes and a consistent URL for end users. The use of Docker, CI/CD pipelines, and Elastic IPs ensures a smooth development and operational-experience.
