@@ -3,6 +3,8 @@ import '../styles/Home.css';
 import homeImage from '../assets/home-image.jpg';
 import solutionImage from '../assets/solution-image.jpg';
 import serviceImage from '../assets/service-image.jpg';
+import serviceImage2 from '../assets/service2.jpg';
+import serviceImage3 from '../assets/service3.jpg';
 import 'animate.css';
 
 const Home = () => {
@@ -60,7 +62,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Services Section */}
+                {/* Services Section
                 <section className="services mt-5 pt-5">
                     <h2 className="display-5 mb-4">What We Offer</h2>
                     <div className="row text-center">
@@ -70,17 +72,41 @@ const Home = () => {
                             <p>We offer expert advice to help you make informed AI technology decisions for your business.</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={serviceImage} alt="Custom AI Solutions" className="img-fluid mb-3" />
+                            <img src={serviceImage2} alt="Custom AI Solutions" className="img-fluid mb-3" />
                             <h4>Custom AI Solutions</h4>
                             <p>Our team develops tailor-made AI solutions that fit your exact needs and objectives.</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={serviceImage} alt="Support & Maintenance" className="img-fluid mb-3" />
+                            <img src={serviceImage3} alt="Support & Maintenance" className="img-fluid mb-3" />
+                            <h4>Support & Maintenance</h4>
+                            <p>We offer 24/7 support and maintenance to ensure your AI systems run smoothly.</p>
+                        </div>
+                    </div>
+                </section> */}
+
+                {/* Services Section */}
+                <section className="services mt-5 pt-5">
+                    <h2 className="display-5 mb-4">What We Offer</h2>
+                    <div className="row text-center">
+                        <div className="col-md-4">
+                            <img src={serviceImage} alt="Consultancy" className="service-image mb-3" />
+                            <h4>Consultancy</h4>
+                            <p>We offer expert advice to help you make informed AI technology decisions for your business.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <img src={serviceImage2} alt="Custom AI Solutions" className="service-image mb-3" />
+                            <h4>Custom AI Solutions</h4>
+                            <p>Our team develops tailor-made AI solutions that fit your exact needs and objectives.</p>
+                        </div>
+                        <div className="col-md-4">
+                            <img src={serviceImage3} alt="Support & Maintenance" className="service-image mb-3" />
                             <h4>Support & Maintenance</h4>
                             <p>We offer 24/7 support and maintenance to ensure your AI systems run smoothly.</p>
                         </div>
                     </div>
                 </section>
+
+
 
                 {/* Testimonials Section */}
                 <section className="testimonials mt-5 pt-5 bg-light">
