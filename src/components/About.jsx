@@ -21,7 +21,7 @@ const About = () => {
                         <div className="col-md-8">
                             <h3>Our Mission</h3>
                             <p>
-                                We aim to revolutionize the industries with AI-driven solutions, empowering businesses with tools to improve efficiency and unlock new revenue streams.
+                                We aim to revolutionize industries with AI-driven solutions, empowering businesses with tools to improve efficiency and unlock new revenue streams.
                             </p>
                         </div>
                     </div>
