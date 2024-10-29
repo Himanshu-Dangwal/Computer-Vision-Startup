@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Header.css';
+import BeACustomerModal from './BeACustomerModal';  // Import the modal component
 
 const Header = () => {
+    const [showModal, setShowModal] = useState(false);
+
+    const handleModalOpen = () => setShowModal(true);
+    const handleModalClose = () => setShowModal(false);
+
     return (
         <header className="header bg-dark">
             <nav className="navbar navbar-expand-lg navbar-dark">
@@ -23,10 +29,16 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
+                            <li className="nav-item">
+                                <button className="btn btn-primary" onClick={handleModalOpen}>Be A Customer</button>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
+            {/* Modal for BeACustomer */}
+            {showModal && <BeACustomerModal onClose={handleModalClose} />}
         </header>
     );
 };
