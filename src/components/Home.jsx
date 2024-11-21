@@ -62,7 +62,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Services Section
+                {/*Services Section*/}
                 <section className="services mt-5 pt-5">
                     <h2 className="display-5 mb-4">What We Offer</h2>
                     <div className="row text-center">
@@ -82,9 +82,9 @@ const Home = () => {
                             <p>We offer 24/7 support and maintenance to ensure your AI systems run smoothly.</p>
                         </div>
                     </div>
-                </section> */}
+                </section> 
 
-                {/* Services Section */}
+                { /*Services Section}
                 <section className="services mt-5 pt-5">
                     <h2 className="display-5 mb-4">What We Offer</h2>
                     <div className="row text-center">
@@ -126,7 +126,7 @@ const Home = () => {
                         </div>
                         <div className="col-md-4">
                             <blockquote className="blockquote">
-                                <p className="mb-0">"The real-time processing power of VisionTech’s systems is truly remarkable."</p>
+                                <p className="mb-0">"The systems is truly remarkable."</p>
                                 <footer className="blockquote-footer mt-2">Michael Lee, CTO of FinVision</footer>
                             </blockquote>
                         </div>
