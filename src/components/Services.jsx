@@ -19,6 +19,7 @@ const Services = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Image to Text</h5>
                                 <p className="card-text">Identify and classify objects in images and videos using state-of-the-art algorithms. Perfect for security, retail, and autonomous systems.</p>
+                                <a href="/uploadphoto" className="btn btn-success btn-lg">Get Started</a>                          
                             </div>
                         </div>
                     </div>

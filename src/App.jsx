@@ -8,6 +8,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import UploadPhoto from './components/UploadPhoto';  
 import FetchFacebookImage from './components/FetchFacebookImage'; 
+import AuthComponent from "./components/AuthComponent";
+import ImageComponent from "./components/ImageComponent";
+import PinterestComponent from "./components/PinterestComponent";
+
 import './App.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -21,8 +25,11 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/"  element={<UploadPhoto/>} />
+          <Route path="/uploadphoto"  element={<UploadPhoto/>} />
           <Route path="/fetch" element={<FetchFacebookImage/>} />
+          <Route path="/auth" element={<AuthComponent />} />
+        <Route path="/images" element={<ImageComponent />} />
+        <Route path="/pinterest" element={<PinterestComponent />} />
         </Routes>
         <Footer />
       </div>
