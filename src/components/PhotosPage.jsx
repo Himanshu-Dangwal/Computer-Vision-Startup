@@ -211,7 +211,7 @@ const PhotosPage = () => {
         try {
             setLoading(true);
             // Send the image URL to the backend for analysis
-            const response = await axios.post('http://localhost:8000/api/upload2', {
+            const response = await axios.post('https://cloudbackend-v8lr.onrender.com/api/upload2', {
                 base64Image: imageUrl, // Ensure that the backend expects this key
             });
 

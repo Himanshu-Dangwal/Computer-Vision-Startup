@@ -73,8 +73,8 @@ const AuthPage = () => {
         e.preventDefault();
         setError('');
         const endpoint = isSignup
-            ? 'http://localhost:8080/api/customers/signup'
-            : 'http://localhost:8080/api/auth/login';
+            ? 'https://cloudbackend-v8lr.onrender.com/api/customers/signup'
+            : 'https://cloudbackend-v8lr.onrender.com/api/auth/login';
 
         try {
             const response = await fetch(endpoint, {
