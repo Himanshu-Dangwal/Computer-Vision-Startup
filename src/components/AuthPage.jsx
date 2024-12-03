@@ -73,8 +73,8 @@ const AuthPage = () => {
         e.preventDefault();
         setError('');
         const endpoint = isSignup
-            ? 'https://cloudbackend-v8lr.onrender.com/api/customers/signup'
-            : 'https://cloudbackend-v8lr.onrender.com/api/auth/login';
+            ? 'https://visionaibackend.onrender.com/api/customers/signup'
+            : 'https://visionaibackend.onrender.com/api/auth/login';
 
         try {
             const response = await fetch(endpoint, {
